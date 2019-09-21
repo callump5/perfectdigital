@@ -1,0 +1,48 @@
+
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+}
+
+th{
+    font-size: $font-size-small--2;
+}
+td {
+    font-size: $font-size-small--1;
+}
+a {
+    font-size: $font-size-small--2;
+}
+
+
+.paragraph {
+    font-size: $font-size-small--2;
+    text-align: center;
+}
+
+
+.heading-primary {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: $font-size-big;
+    padding: 1rem;
+}
+
+
+.heading-secondary {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: $font-size-medium;
+    padding: 1rem;
+}
+
+.heading-tertiary {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: $font-size-small--3;
+    padding: 1rem;
+}

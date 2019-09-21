@@ -1,0 +1,57 @@
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+
+
+.u-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.u-margin-top {
+    margin-top: 2rem;
+}
+
+.u-margin-small {
+    margin-bottom: 1rem
+    
+}
+
+.u-margin-medium {
+    margin-bottom: 2rem
+
+}
+
+.u-margin-big { margin-bottom: 8rem
+
+}
+
+.u-height-full {
+    height:100%;
+    display: block;
+    margin:0;
+}
+
+.u-left {
+    background-position: left
+}
+
+.u-cover {
+    background-size: cover;
+}
+
+.u-contain {
+    background-size: contain;
+}
+
+@media screen and (min-width: 800px) {
+  
+    .u-container {
+        width: 85rem;
+        margin: 0 auto;
+    }
+        
+}

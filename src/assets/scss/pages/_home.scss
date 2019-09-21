@@ -1,0 +1,49 @@
+.section-landing {
+    height: 80vh; 
+    background-image: 
+    linear-gradient(
+        to right bottom, 
+        rgba(white, 0.7),
+        rgba(white, 0.4) ),  url("landing/pic1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    &__text-box {
+        position: absolute;
+        top: 50%;
+        left: 6rem;
+        right: 40%;
+        transform:  translateY(-50%);
+
+        & > .paragraph {
+            animation: move-in 1s  2.5s   backwards;
+        }
+
+
+        &  .buttons {
+            &__button{
+                float: left;
+                
+                &--b1 {
+                    animation: move-in 1s 3.6s backwards;
+                }
+
+                &--b2{
+                    animation: move-in 1s 4.1s backwards;
+                    background-color: $color-secondary;
+            
+                }
+            }
+        }
+    }
+
+}
+
+.section-about {
+
+    & .u-align-middle {
+        height: 30rem;
+    }
+}

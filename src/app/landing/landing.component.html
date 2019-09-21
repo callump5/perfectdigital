@@ -1,0 +1,17 @@
+<div class='slideshow'>
+    <div class="u-container">
+        <div class="slideshow__content">
+            <slideshow 
+                [height]="height"
+                [minHeight]="'400px'"
+                [autoPlay]="true"
+                [showArrows]="true"
+                [backgroundSize]="cover"
+                [showDots]='true'
+                [imageUrls]="imageUrls"
+                [lazyLoad]="imageSources?.length > 1"
+                [autoPlayWaitForLazyLoad]="true">
+            </slideshow>
+        </div>
+    </div>
+</div>
